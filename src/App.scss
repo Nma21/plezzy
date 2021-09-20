@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+.navigate {
+
+#btn {
+  border: none;
+  cursor: text;
+}
+}
+
+.page-ab {
+  background-image: url('../src/images/img-bean.jpg');
+  background-size: cover; 
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  font-size:  calc(15px + 2vmin);
+  
+
+
+   .page-in {
+     padding: 4rem;
+     font-weight: bolder;
+   }
+    .paster {
+      border-radius: 2em;
+    }
+}
+
+.ground {
+  background-image: url('../src/images/img-a.jpg');
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  color: whitesmoke;
+  border-left: 10rem;
+
+  .grondy {
+    text-align: center;
+    padding-top: 15rem;
+    font-size:  calc(8px + 2vmin);
+  }
+
+  #about {
+    color: black;
+  }
+}
+
+.prods {
+  background-image: url('../src/images/img-pro.jpg');
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  padding: 5rem;
+  font-size:  calc(6px + 2vmin);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+
+  .pastes {
+    border-radius: 2em;
+  }
+}
+
+.conts {
+  background-image: url('../src/images/img-cont.jpg');
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+ 
+  .space {
+  position: absolute;
+  width: 60em;
+  padding-top: 12.5rem;
+  text-align: center;
+  font-size:  calc(8px + 2vmin);
+ 
+  }
+  
+}
